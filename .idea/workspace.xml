@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c33a7ad0-7301-4b80-94e2-0bcfce929438" name="Changes" comment="Init" />
+    <list default="true" id="c33a7ad0-7301-4b80-94e2-0bcfce929438" name="Changes" comment="Init">
+      <change afterPath="$PROJECT_DIR$/src/main/java/pagesObject/CheckoutStepPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/SortTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pagesObject/InventoryPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pagesObject/InventoryPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/InventoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/InventoryTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,6 +24,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -40,11 +51,12 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true"
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
   }
 }]]></component>
-  <component name="RunManager" selected="TestNG.LoginTest.loginWithNoValidData">
-    <configuration name="InventoryTest.Buy2Products" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.InventoryTest.RemoveProduct">
+    <configuration name="InventoryTest.RemoveProduct" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SawgLab" />
       <extension name="coverage">
         <pattern>
@@ -54,7 +66,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="tests" />
       <option name="MAIN_CLASS_NAME" value="tests.InventoryTest" />
-      <option name="METHOD_NAME" value="Buy2Products" />
+      <option name="METHOD_NAME" value="RemoveProduct" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -62,7 +74,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LoginTest.loginWithNoValidData" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="SortTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SawgLab" />
       <extension name="coverage">
         <pattern>
@@ -71,16 +83,15 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.LoginTest" />
-      <option name="METHOD_NAME" value="loginWithNoValidData" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="MAIN_CLASS_NAME" value="tests.SortTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LoginTest.loginWithValidData" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="SortTest.SortByHighPrice" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SawgLab" />
       <extension name="coverage">
         <pattern>
@@ -89,8 +100,44 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.LoginTest" />
-      <option name="METHOD_NAME" value="loginWithValidData" />
+      <option name="MAIN_CLASS_NAME" value="tests.SortTest" />
+      <option name="METHOD_NAME" value="SortByHighPrice" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SortTest.SortByLowPrice" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SawgLab" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.SortTest" />
+      <option name="METHOD_NAME" value="SortByLowPrice" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SortTest.SortByZtoAprice" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SawgLab" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.SortTest" />
+      <option name="METHOD_NAME" value="SortByZtoAprice" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -100,9 +147,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.LoginTest.loginWithNoValidData" />
-        <item itemvalue="TestNG.InventoryTest.Buy2Products" />
-        <item itemvalue="TestNG.LoginTest.loginWithValidData" />
+        <item itemvalue="TestNG.InventoryTest.RemoveProduct" />
+        <item itemvalue="TestNG.SortTest.SortByZtoAprice" />
+        <item itemvalue="TestNG.SortTest.SortByLowPrice" />
+        <item itemvalue="TestNG.SortTest.SortByHighPrice" />
+        <item itemvalue="TestNG.SortTest" />
       </list>
     </recent_temporary>
   </component>
@@ -122,7 +171,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679428330489</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Init">
+      <created>1679428410131</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1679428410131</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
