@@ -4,59 +4,41 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c33a7ad0-7301-4b80-94e2-0bcfce929438" name="Changes" comment="Init">
-      <change afterPath="$PROJECT_DIR$/src/main/java/pagesObject/CheckoutStepPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/SortTest.java" afterDir="false" />
+    <list default="true" id="386d3134-6f08-4589-a9ba-398347091e6e" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pagesObject/InventoryPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pagesObject/InventoryPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/InventoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/InventoryTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Class" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
-    <option name="RECENT_BRANCH_BY_REPOSITORY">
-      <map>
-        <entry key="$PROJECT_DIR$" value="master" />
-      </map>
-    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="MarkdownSettingsMigration">
-    <option name="stateVersion" value="1" />
-  </component>
   <component name="MavenImportPreferences">
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="workspaceImportEnabled" value="true" />
-      </MavenImportingSettings>
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
     </option>
   </component>
-  <component name="ProjectId" id="2NKdvw8xmi9hU1JxID9sMGsPqBQ" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectId" id="2NjwqkhBxOzmjfimeOoWbRm5AEO" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "settings.editor.selected.configurable": "preferences.lookFeel"
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "D:/downloads/SawgLab"
   }
 }]]></component>
-  <component name="RunManager" selected="TestNG.InventoryTest.RemoveProduct">
-    <configuration name="InventoryTest.RemoveProduct" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager">
+    <configuration name="LoginTest.loginWithValidData" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SawgLab" />
       <extension name="coverage">
         <pattern>
@@ -65,79 +47,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.InventoryTest" />
-      <option name="METHOD_NAME" value="RemoveProduct" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SortTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="SawgLab" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.SortTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SortTest.SortByHighPrice" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="SawgLab" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.SortTest" />
-      <option name="METHOD_NAME" value="SortByHighPrice" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SortTest.SortByLowPrice" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="SawgLab" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.SortTest" />
-      <option name="METHOD_NAME" value="SortByLowPrice" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SortTest.SortByZtoAprice" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="SawgLab" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.SortTest" />
-      <option name="METHOD_NAME" value="SortByZtoAprice" />
+      <option name="MAIN_CLASS_NAME" value="tests.LoginTest" />
+      <option name="METHOD_NAME" value="loginWithValidData" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -147,42 +58,19 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.InventoryTest.RemoveProduct" />
-        <item itemvalue="TestNG.SortTest.SortByZtoAprice" />
-        <item itemvalue="TestNG.SortTest.SortByLowPrice" />
-        <item itemvalue="TestNG.SortTest.SortByHighPrice" />
-        <item itemvalue="TestNG.SortTest" />
+        <item itemvalue="TestNG.LoginTest.loginWithValidData" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="c33a7ad0-7301-4b80-94e2-0bcfce929438" name="Changes" comment="" />
-      <created>1679416941864</created>
+      <changelist id="386d3134-6f08-4589-a9ba-398347091e6e" name="Changes" comment="" />
+      <created>1680190992681</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1679416941864</updated>
+      <updated>1680190992681</updated>
     </task>
-    <task id="LOCAL-00001" summary="Init">
-      <created>1679428330489</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1679428330489</updated>
-    </task>
-    <task id="LOCAL-00002" summary="Init">
-      <created>1679428410131</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1679428410131</updated>
-    </task>
-    <option name="localTasksCounter" value="3" />
     <servers />
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="Init" />
-    <option name="LAST_COMMIT_MESSAGE" value="Init" />
   </component>
 </project>
